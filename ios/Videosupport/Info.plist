@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>NativeStarterKit</string>
+	<string>Videosupport</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -51,8 +51,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>CodePushDeploymentKey</key>
-	<string>deployment-key-here</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Andale Mono.ttf</string>
@@ -86,6 +84,7 @@
 		<string>SanFranciscoBold.ttf</string>
 		<string>SanFranciscoThin.ttf</string>
 		<string>SF-UI-Text-Regular.otf</string>
+		<string>SimpleLineIcons.ttf</string>
 		<string>Skia.ttf</string>
 		<string>Times New Roman.ttf</string>
 		<string>Zocial.ttf</string>
