@@ -1,4 +1,3 @@
-import type { Action } from "../actions/types";
 import { SET_INDEX } from "../actions/list";
 
 export type State = {
@@ -6,18 +5,16 @@ export type State = {
 };
 
 const initialState = {
-  list: [
-    "React Native Starter Kit",
-    "React Navigation",
-    "NativeBase Easy Grid",
-    "NativeBase",
-    "CodePush",
-    "Redux"
-  ],
-  selectedIndex: undefined
+    list: [
+        "My Profile",
+        "My Videos",
+        "Make a new video",
+        "Tutorial"
+    ],
+    selectedIndex: undefined
 };
 
-export default function(state: State = initialState, action: Action): State {
+export default function(state = initialState, action) {
   if (action.type === SET_INDEX) {
     return {
       ...state,
